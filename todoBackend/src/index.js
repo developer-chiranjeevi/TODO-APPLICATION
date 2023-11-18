@@ -30,7 +30,7 @@ app.get("/",(request,response) =>{
 
     response.json({
         message:"Welcome To TODO Web Application",
-        address:interface['Wi-Fi'][0].address,
+        address:interface['eth0'],
     });
 });
 
